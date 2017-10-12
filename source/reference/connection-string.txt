@@ -188,6 +188,11 @@ Connection Options
    * - Connection Option
      - Description
 
+   * - .. urioption:: appname
+
+       .. note::
+          The application name is printed to the mongod logs upon establishing the connection. It is also recorded in the slow query logs and profile collections.
+
    * - .. urioption:: ssl
 
      - ``true``: Initiate the connection with TLS/SSL.
